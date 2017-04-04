@@ -32,7 +32,7 @@ $ sudo apt update
 <pre>
 $ sudo apt install gcc-arm-embedded
 </pre>
-注意：gcc-arm-none-eabiは canonical社 が提供する arm向けgccだが、こちらだとサンプルプログラムのビルドが通らない。インストールしないように！
+注意：gcc-arm-none-eabiは canonical社 が提供する arm向けgccだ。誤ってgcc-arm-none-eabiインストールするとサンプルプログラムのビルドが通らない。インストールしないように！
 
 * ブートローダーを生成するためのツールをインストールする
 <pre>
